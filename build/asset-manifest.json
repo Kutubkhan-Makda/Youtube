@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Youtube/static/css/main.cf0881db.css",
+    "main.js": "/Youtube/static/js/main.8465d7a7.js",
+    "static/media/Avtar.jpg": "/Youtube/static/media/Avtar.6e06902ebff1e8d9b3d1.jpg",
+    "static/media/Youtube_logo.png": "/Youtube/static/media/Youtube_logo.6f214736c83d297b8398.png",
+    "index.html": "/Youtube/index.html",
+    "main.cf0881db.css.map": "/Youtube/static/css/main.cf0881db.css.map",
+    "main.8465d7a7.js.map": "/Youtube/static/js/main.8465d7a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf0881db.css",
+    "static/js/main.8465d7a7.js"
+  ]
+}
