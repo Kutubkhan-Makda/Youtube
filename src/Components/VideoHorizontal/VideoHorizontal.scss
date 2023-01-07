@@ -1,0 +1,95 @@
+@import '../../index.scss';
+
+.VideoHorizontal {
+   border-bottom: 0.3px solid $border-color;
+   cursor: pointer;
+
+   &_left {
+      position: relative;
+      text-align: center;
+      padding-left: 0 !important;
+   }
+
+   &_thumbnail {
+      width: 100%;
+
+      &-channel {
+         width: 50%;
+         border-radius: 50%;
+      }
+
+      &-wrapper {
+         width: 100%;
+      }
+   }
+
+   &_duration {
+      position: absolute;
+      bottom: 0.1rem;
+      right: 1rem;
+      font-size: 0.9rem;
+      padding: 0.2rem;
+      background: #080808ec;
+      border-radius: 3px;
+   }
+
+   &_details {
+      font-size: 0.9rem;
+   }
+
+   &_title {
+      font-size: 0.95rem;
+      letter-spacing: 0.3px;
+      @include line-clamp(2);
+   }
+
+   &_discription {
+      @include line-clamp(2);
+      font-size: 0.9rem;
+   }
+
+   &_channel {
+
+      img {
+         width: 36px;
+         height: 36px;
+         border-radius: 50%;
+         margin-right: 0.5rem;
+         cursor: pointer;
+      }
+
+      p {
+         font-size: 0.9rem;
+         @include line-clamp(1);
+      }
+   }
+}
+
+@media (max-width: $breakpoint-small) {
+   .VideoHorizontal {
+      font-size: 0.8rem;
+
+      &_details {
+         @include line-clamp(1);
+      }
+      &_channel {
+         margin: 0.1rem 0;
+
+         img {
+            display: none;
+         }
+         p {
+            font-size: 0.8rem;
+         }
+      }
+
+      &_discription {
+         display: none;
+      }
+
+      &_title {
+         font-size: 0.9rem;
+         @include line-clamp(1);
+      }
+   }
+}
