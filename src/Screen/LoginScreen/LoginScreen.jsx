@@ -19,7 +19,7 @@ const LoginScreen = () => {
 
   useEffect(()=>{
     if(accessToken){
-      navigate('/')
+      navigate('/Youtube')
     }
   },[accessToken,navigate])
 
